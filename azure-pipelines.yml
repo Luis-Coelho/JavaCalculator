@@ -17,6 +17,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     cd Calculadora/src/controle
-    javac -cp ../../bin/ -d ../../bin Calculator.java;
+    javac -encoding ISO-8859-1 -cp ../../bin/ -d ../../bin Calculator.java;
    
   displayName: 'Run a multi-line script'
